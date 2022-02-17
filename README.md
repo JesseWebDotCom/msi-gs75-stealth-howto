@@ -90,7 +90,7 @@ Using the Dragon Center 2.x user scenarios I typically configure and switch betw
       * GPU: 0%, 50%, 60%, 75%, 90%, 150%
 
 ### Understanding the Fan Curves
-When setting the fan curves in the User Scenario | Fan Speed | Advanced, there are no indicators to understand temperature and no explanation of speed (especially since values do up to 150%). Here's my understanding after experimenting:
+When setting the fan curves in the User Scenario | Fan Speed | Advanced, there are no indicators to understand temperature and no explanation of speed (especially since values for 3 fans add up to 150%). Here's my understanding after experimenting:
 
 #### Speed
 * Values 0-100% control fans 1 and 2
@@ -160,7 +160,7 @@ Thermal paste and pads are a way to efficiently transfer heat from your core com
 # Tweaks
 | Name      | Description      | Notes |
 | --- | --- | --- |
-| [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) | O&O ShutUp10++ means you have full control over which comfort functions under Windows 10 and Windows 11 you wish to use, and you decide when the passing on of your data goes too far. Using a very simple interface, you decide how Windows 10 and Windows 11 should respect your privacy by deciding which unwanted functions should be deactivated. | This will help protect your privacy and well as reduce the load on your laptop and network. *Apply recommended settings.* |
+| [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) | O&O ShutUp10++ means you have full control over which comfort functions under Windows 10 and Windows 11 you wish to use, and you decide when the passing on of your data goes too far. Using a very simple interface, you decide how Windows 10 and Windows 11 should respect your privacy by deciding which unwanted functions should be deactivated. | This will help protect your privacy and well as reduce the load on your laptop and network. *Apply recommended settings - EXCEPT FOR Location Services | Disable Functionality to locate the system (if you enable this, you will not be able to find your laptop using the Find My Device feature) * |
 | [Windows10Debloater](https://github.com/jstnlth/Windows10Debloater/tree/addWhitelistDefaults)| Script/Utility/Application to debloat Windows 10/11, to remove Windows pre-installed unnecessary applications, stop some telemetry functions, stop Cortana from being used as your Search Index, disable unnecessary scheduled tasks, and more. | This will help protect your privacy and well as reduce the load on your laptop and network. *Run the GUI script and select to remove all bloatware*|
 | [MSI Wallpaper](https://cutewallpaper.org/download.php?file=/21/msi-wallpaper/MSI-Gaming-Wallpaper-1920x1080-on-MarkInternational.info.jpg)|This wallpaper includes a dark, detailed MSI dragon logo.|*Set you desktop and lock screen wallpaper* |
 | [Set a custom New Tab Page in Microsoft Edge](https://answers.microsoft.com/en-us/microsoftedge/forum/all/how-to-set-a-custom-new-tab-page-in-microsoft-edge/af0590f8-9a5c-46c5-bd25-5150aed60d8c?auth=1) | Microsoft Edge has options to set or change the page(s) that open when the browser is launched (Note 3), and also to set a home page accessed by clicking the Home button Image next to the address bar (Note 4). However, a new tab will always open to the browser's own New Tab Page. If you would rather have a different page in new tabs, this article explains how to do it. |*Use this to control what page appears when opening a new tab.*|
